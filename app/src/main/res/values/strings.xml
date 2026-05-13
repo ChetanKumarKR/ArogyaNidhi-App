@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ArogyaNidhi</string>
+
+    <!-- Quiz -->
+    <string name="eligibility_title">Eligibility Check</string>
+    <string name="check_btn">Check Eligibility</string>
+
+    <!-- Result -->
+    <string name="find_hospital">Find Nearby Hospitals</string>
+
+    <!-- ✅ FIX MISSING STRINGS -->
+    <string name="find_hospitals">Find Nearby Hospitals</string>
+    <string name="search_hint">Search hospital...</string>
+    <string name="select_district">Select District</string>
+    <string name="search_button">Search Hospitals</string>
+
+    <!-- BPL Dropdown -->
+    <string-array name="ration_card">
+        <item>APL (Above Poverty Line)</item>
+        <item>BPL (Below Poverty Line)</item>
+    </string-array>
+
+    <!-- Districts -->
+    <string-array name="districts">
+        <item>Select District</item>
+        <item>Bangalore</item>
+        <item>Mysore</item>
+        <item>Mangalore</item>
+        <item>Udupi</item>
+        <item>Dharwad</item>
+        <item>Tumkur</item>
+        <item>Belgaum</item>
+        <item>Shimoga</item>
+        <item>Davangere</item>
+        <item>Bellary</item>
+        <item>Hassan</item>
+        <item>Mandya</item>
+        <item>Kolar</item>
+        <item>Chikkaballapur</item>
+        <item>Bidar</item>
+        <item>Kalaburagi</item>
+        <item>Vijayapura</item>
+        <item>Bagalkot</item>
+        <item>Gadag</item>
+        <item>Haveri</item>
+        <item>Koppal</item>
+        <item>Yadgir</item>
+        <item>Karwar</item>
+        <item>Chikkamagaluru</item>
+        <item>Kodagu</item>
+        <item>Raichur</item>
+        <item>Chitradurga</item>
+        <item>Ramanagara</item>
+        <item>Chamarajanagar</item>
+    </string-array>
+
+</resources>

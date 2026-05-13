@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arogyanidhi">
+
+    <!-- INTERNET PERMISSION -->
+
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
+    <!-- LOCATION PERMISSIONS -->
+
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ArogyaNidhi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ArogyaNidhi">
+
+        <!-- RECOMMENDATION -->
+
+        <activity
+            android:name=".RecommendationActivity"
+            android:exported="false" />
+
+        <!-- SPLASH SCREEN -->
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+        <!-- MAIN LOGIN -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- SIGNUP -->
+
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+
+        <!-- QUIZ -->
+
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+
+        <!-- RESULT -->
+
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+
+        <!-- HOSPITAL -->
+
+        <activity
+            android:name=".HospitalActivity"
+            android:exported="false" />
+
+        <!-- PROFILE -->
+
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+
+        <!-- ADD HOSPITAL -->
+
+        <activity
+            android:name=".AddHospitalActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

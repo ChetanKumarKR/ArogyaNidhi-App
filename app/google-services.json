@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "174691171527",
+    "project_id": "arogyanidhi-48b05",
+    "storage_bucket": "arogyanidhi-48b05.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174691171527:android:ae95bdb20394a4dc3e12e2",
+        "android_client_info": {
+          "package_name": "com.example.arogyanidhi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtv6es_6R_03isa9BXrcq6x-4S-vj4sww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
